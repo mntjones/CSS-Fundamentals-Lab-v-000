@@ -4,32 +4,35 @@ body {
   margin: 0;
 }
 
-h1 {
+h1, nav, figcaption {
   text-align: center;
 }
  img {
-   align-content: center;
+  display: block;
+  margin: 0 auto;
  }
 
-a {
+nav a {
   padding: 0 10px 0 10px;
-}
-
-nav {
-  align-content: center;
+  background-color: gray;
+  margin: 0 auto;
 }
 
 figcaption {
-  font-size: 24px;
-  text-align: center;
+  font-size: 20px;
+
 }
 
 #featured-property p {
   width: 800px;
   text-align: center;
+  margin: 0 auto;
 }
 
-#details {
+#details div {
   display: block;
   float: left;
+  background-color: red;
+  width: 25%;
+  text-align: center;
 }
